@@ -512,19 +512,40 @@ tr:nth-child(5) {
 }
 
 .footer__slider-container {
+  display: flex;
+  justify-content: center;
+}
+
+.footer__slider {
+  width: 1020px;
+  height: 472px;
+  margin: 0 auto;
+  margin-bottom: 140px;
+  background-color: white;
+  transition: all 1s;
   overflow: hidden;
 }
 
 .footer__slider-cards {
+  width: 1360px;
+  height: 472px;
   display: flex;
-  justify-content: space-between;
-  margin-bottom: 140px;
+  position: relative;
+  left: 0px;
+  transition: all ease 1s;
+  margin: 0;
+  padding: 0;
   list-style: none;
   transition: 0.2s;
 }
 
 .footer__slider-card {
-  height: 462px;
+  width: 340px;
+  height: 472px;
+  list-style: none;
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 1);
+  margin-right: 24px;
   text-align: center;
 }
 
